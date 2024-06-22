@@ -6,12 +6,12 @@ export default class Count {
 		this.victory = document.querySelector(".victory");
 	}
 	increaseDefeat() {
-		countDefeat++;
-		defeat.innerText = countDefeat;
+		this.countDefeat++;
+		this.defeat.innerText = this.countDefeat;
 	}
 
 	increaseVictory() {
-		countVictory++;
-		victory.innerText = countVictory;
+		this.countVictory++;
+		this.victory.innerText = this.countVictory;
 	}
 }
